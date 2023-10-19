@@ -1,0 +1,10 @@
+Ctrl + L -> Seleciona Linha
+Ctrl + A -> Seleciona Tudo
+Ctrl + D -> Seleciona Palavra e outras palavras iguais
+Ctrl + Z -> Desfaz 
+Ctrl + Y -> Refaz
+Ctrl + H -> Substituir
+Ctrl + F ou F3-> Pesquisar 
+Ctrl + U -> Coloca o cursor onde ele estava antes
+Ctrl + B -> Mostra/Oculta janela de à esquerda
+Ctrl + . -> Abre as configurações

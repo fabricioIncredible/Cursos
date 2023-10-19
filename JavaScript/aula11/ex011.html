@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serei multado?</title>
+</head>
+<body>
+    <h1>Você será multado?</h1>
+    <p>Descubra se você será multado com o nosso <strong>calculador de multas</strong>.</p>
+    A que velocidade você estava? <input type="number" name="txtvel" id="txtvel" oninput="verificar()">Km/h
+    <input type="submit" value="Verificar" onclick="verificar()">
+    <h3 id="esse"></h3>
+    <script>
+        function verificar() {
+            var então = 'A velocidade máxima permitida é de 80 Km/h, então você '
+            var aquele = document.getElementById('esse')
+            var vel = document.getElementById('txtvel')
+            var velocidade = Number(vel.value)
+
+            if (velocidade == '') {
+                aquele.innerText = '' 
+            }
+            else if (velocidade > 80) {
+                aquele.innerHTML = então + '<strong>será multado</strong>.'
+            }
+            else {
+                aquele.innerHTML = então + '<strong>não será multado</strong>.'
+            }
+        }
+
+    </script>
+</body>
+</html>

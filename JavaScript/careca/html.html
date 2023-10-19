@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Complexo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <h1 onclick="preencher()">Cadastro Sulamerica</h1>
+        </section>
+        <section id="contato">
+                Nome Completo<input type="text" name="" id="nome">
+                
+                <p>Sexo</p>
+                <p>
+                    <select name="" id="sexo">
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                </p>
+
+                Data de Nascimento<input type="text" name="" id="datanasc">
+                CPF<input type="text" name="" id="CPF">
+                Idade
+                <input type="number" name="" id="idade">
+                Seguro de vida?<input type="checkbox" name="" id="seguro">
+                <p><input type="submit" value="Concluir" onclick="vareis()"></p>
+        </section>
+    </main>
+    <footer>
+        <script src="concluido.js" defer></script>
+        <p>&copy; 2023 Meu Site Complexo</p>
+    </footer>
+</body>
+</html>
